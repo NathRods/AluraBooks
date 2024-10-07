@@ -14,8 +14,24 @@
 }
 
 .banner__pesquisa{
+    background-color: transparent;
     border-radius: 24px;
     text-align: center;
-    border: 10em;
+    border: 1px solid var(--cor-branca);
+    color: var(--cor-branca);
+    padding: 1em;
+    width: 100%;
+    
 
+}
+
+.banner__pesquisa::placeholder{
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-branca);
+    background: url("../assets/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
 }
