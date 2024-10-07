@@ -38,8 +38,8 @@
 
 ::-webkit-search-cancel-button {
     -webkit-appearance: none;
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     background-image: url('../assets/apagar.png');
     background-size: contain;
     background-repeat: no-repeat;
