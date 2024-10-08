@@ -55,6 +55,7 @@
     font-size: 18px;
     color: var(--cor-azul);
     font-weight: 700;
+    margin: 1em;
 }
 
 .descricao__texto{
