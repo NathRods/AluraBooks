@@ -17,7 +17,7 @@
     background-color: transparent;
     border-radius: 24px;
     text-align: center;
-    border: 1px solid var(--cor-branca);
+    border: 1px solid var(--cor-branca); /* serve para criar uma borda definindo que ela é solid o tamanho e cor da borda*/
     color: var(--cor-branca);
     padding: 1em;
     width: 100%;
@@ -25,23 +25,23 @@
 
 }
 
-.banner__pesquisa::placeholder{
+.banner__pesquisa::placeholder{ /*  serve para estilizar o placeholder a barra de pesquisa*/
     font-size: 14px;
     font-family: var(--fonte-principal);
     font-weight: 400;
     text-align: center;
     color: var(--cor-branca);
-    background: url("../assets/Vector.svg");
+    background: url("../assets/Vector.svg"); /* serve para definir um backgroud como imagem*/
     background-repeat: no-repeat;
-    background-position: 1em;
+    background-position: 1em; /* serve para definir a posicao do backgroud*/
 }
 
-::-webkit-search-cancel-button {
+::-webkit-search-cancel-button { /* serve para que podemos alterar o botao cancelar da barra de pesquisa para uma outra coisa*/
     -webkit-appearance: none;
     height: 15px;
     width: 15px;
     background-image: url('../assets/apagar.png');
     background-size: contain;
     background-repeat: no-repeat;
-    cursor: pointer;
+    cursor: pointer; /* serve para que definimos que esse elemento é clicavel mudando a forma do curso para a mao*/ 
   }
