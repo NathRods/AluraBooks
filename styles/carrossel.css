@@ -68,12 +68,11 @@
 
 .botoes__ancora{
     background-color: var(--cor-amarela);
-    margin: 1em 1em 1em 1em;
     text-align: center;
     font-weight: 700;
     color: var(--cor-branca);
     text-decoration: none;
-    padding: 1em;
+    padding: 1em 2.2em;
 }
 
 .botoes__item{
