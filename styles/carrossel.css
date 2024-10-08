@@ -45,7 +45,7 @@
     padding: 1em;
 }
 
-.descricao__titul{
+.descricao__titulo{
     color: var(--cor-amarela);
     font-weight: 700;
 
@@ -64,7 +64,7 @@
 
 .botoes__ancora{
     background-color: var(--cor-amarela);
-    margin: 5em;
+    margin: 1em 1em 1em 1em;
     text-align: center;
     font-weight: 700;
     color: var(--cor-branca);
