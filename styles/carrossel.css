@@ -26,6 +26,7 @@
 .card__descricao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .card__botoes{
@@ -73,4 +74,8 @@
     color: var(--cor-branca);
     text-decoration: none;
     padding: 1em;
+}
+
+.botoes__item{
+    margin: 0 0.5em;
 }
