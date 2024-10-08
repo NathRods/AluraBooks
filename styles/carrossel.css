@@ -62,6 +62,7 @@
 .descricao__texto{
     font-size: 14px;
     color:var(--cor-preto);
+    margin: 1em;
 }
 
 .botoes__ancora{
