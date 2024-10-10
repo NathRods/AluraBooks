@@ -1,0 +1,41 @@
+.contatos{
+    background-color: var(--cor-branca);
+    text-align: center;
+    padding: 1em;
+}
+
+.contatos__titulo,
+.contatos__texto{
+    background: var(--cor-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contatos__titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contatos__texto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contatos__email{
+    background-color: transparent;
+    border-radius: 24px;
+    text-align: center;
+    border: 1px solid var(--cor-azul); /* serve para criar uma borda definindo que ela é solid o tamanho e cor da borda*/
+    color: var(--cor-azul);
+    padding: 1em;
+    width: 90%;
+}
+
+.contatos__email::placeholder{ /*  serve para estilizar o placeholder a barra de pesquisa*/
+    font-family: var(--fonte-principal);
+    text-align: center;
+    color: var(--cor-azul);
+    background: url("../assets/email.svg") no-repeat; /* serve para definir um backgroud como imagem*/
+    padding-left: 2em;
+}
