@@ -45,3 +45,18 @@
     background-repeat: no-repeat;
     cursor: pointer; /* serve para que definimos que esse elemento é clicavel mudando a forma do curso para a mao*/ 
   }
+
+  @media screen and (min-width: 1024px) {
+    .banner__titulo{
+        font-size: 36px;
+    }
+  
+    .banner__pesquisa{
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 6em;
+    }
+    
+  }
