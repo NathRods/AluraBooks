@@ -19,7 +19,7 @@
     text-align: center;
     border: 1px solid var(--cor-branca); /* serve para criar uma borda definindo que ela é solid o tamanho e cor da borda*/
     color: var(--cor-branca);
-    padding: 1em;
+    padding: 1em 0.3em;
     width: 100%;
     
 
