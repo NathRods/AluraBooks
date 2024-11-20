@@ -59,3 +59,10 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1200px){
+
+    .contatos{
+        padding: 3em 20vw;
+    }
+}
